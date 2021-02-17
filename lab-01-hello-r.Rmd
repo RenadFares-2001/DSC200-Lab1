@@ -23,7 +23,8 @@ ggplot(data = dino_data, mapping = aes(x = x, y = y)) + geom_point()
 ```
 
 ```{r}
-
+circle_data <- datasaurus_dozen %>%filter(dataset == "circle")
+ ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
 ```
 
 ```{r}
